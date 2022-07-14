@@ -1,0 +1,12 @@
+.navbar-nav{
+    margin-left: auto;
+}
+.navbar-brand{
+    font-weight: bold;
+    font-size: 30px!important;
+}
+.navbar-nav a{
+    font-size: 20px;
+    color: #000!important;
+    font-weight: 500;
+}
