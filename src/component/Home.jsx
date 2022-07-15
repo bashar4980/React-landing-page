@@ -1,8 +1,9 @@
 import React from 'react'
-import Course from './common/Course';
+
 
 import Header from './common/Header';
 import Wrapper from './common/Wrapper';
+import Services from './Services';
 
 const Home = () => {
   return (
@@ -19,9 +20,7 @@ const Home = () => {
         <h4>Professional Certificates</h4>
         <h1>Get job-ready for an in-demand career</h1>
         <p>Break into a new field like information technology or data science. No prior experience necessary to get started.</p>
-      <div className="row g-5 py-5">
-      <Course/>
-      </div>
+      <Services/>
       </div>
      
      <Wrapper Imagesrc="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera_assets.s3.amazonaws.com/front-page-rebrand/secondary-consumer-cta/Image-Next-Step.png?auto=format%2Ccompress&dpr=1&w=471&h=330&q=40" heading="Take the next step toward your personal and professional goals with Coursera." text={

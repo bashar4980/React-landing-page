@@ -1,4 +1,4 @@
-export const BlogData=[
+const BlogData=[
     {
         Id:1,
         title:"Supervised Machine Learning",
@@ -21,7 +21,7 @@ export const BlogData=[
         Id:1,
         title:"Programming for Everyone(Getting Started with Phython)",
         course:"Phython",
-        Content1:`What is machine learning?
+        Content:`What is machine learning?
         Machine learning (ML) is a type of artificial intelligence (AI) that allows software applications to become more accurate at predicting outcomes without being explicitly programmed to do so. Machine learning algorithms use historical data as input to predict new output values.
         
         Recommendation engines are a common use case for machine learning. Other popular uses include fraud detection, spam filtering, malware threat detection, business process automation (BPA) and Predictive maintenance.
@@ -105,3 +105,4 @@ export const BlogData=[
     }
     
 ]
+export default BlogData;
