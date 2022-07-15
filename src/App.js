@@ -5,6 +5,7 @@ import {
   Route,
 } from "react-router-dom";
 import About from './component/About';
+import Footer from './component/common/footer';
 import Contract from './component/Contrac';
 
 import Home from './component/Home';
@@ -25,6 +26,7 @@ const App = () => {
      <Route path='*' element={<Home/>}/>
      
    </Routes>
+   <Footer/>
    
    </BrowserRouter>
    </>

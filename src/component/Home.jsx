@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <>
    <header>
-    <Header img="https://static-exp2.licdn.com/aero-v1/sc/h/d58zfe6h3ycgq5l1ccjpkrtdn"/>
+    <Header img="https://static-exp2.licdn.com/aero-v1/sc/h/d58zfe6h3ycgq5l1ccjpkrtdn" text = "Learn without limits"/>
    </header>
     </>
   )
