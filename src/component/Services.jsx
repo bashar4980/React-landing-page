@@ -24,7 +24,7 @@ const Services = () => {
                 const {courseImg , title , author, Content} = item;
 
                 return (
-                  <div className="col-lg-4" key={id}>
+                  <div className="col-lg-4 col-md-6 col-sm-6" key={id}>
 
                     <div className="card h-100">
                     <img src={courseImg} className="img-fluid h-50" alt="..." />

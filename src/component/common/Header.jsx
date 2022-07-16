@@ -7,9 +7,9 @@ import {
 const Header = ({img , text}) => {
   return (
    <>
-   <section className="container mt-5">
-        <div className="row d-flex align-items-center">
-            <div className="col-lg-6">
+   <section className="container ">
+        <div className="row header">
+            <div className="col-lg-6 col-md-6">
                 <h1>{text}</h1>
                 <p className="py-2">Start, switch, or advance your career with more than 5,000 courses, Professional Certificates, and degrees from world-class universities and companies.</p>
                 

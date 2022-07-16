@@ -7,7 +7,7 @@ const Wrapper = (props) => {
     <section style={{background:" #ebf3ff"}} className="py-5 my-5">
    <div className="container" >
     <div className=" row">
-    <div className="col-lg-6" id='header'>
+    <div className="col-lg-6 col-md-6" id='header'>
         <img className="img-fluid animated" src={props.Imagesrc} alt=""  />
       </div>
       <div className="col-lg-6 pt-5">

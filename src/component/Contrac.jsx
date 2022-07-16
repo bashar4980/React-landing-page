@@ -6,7 +6,7 @@ const Contract = () => {
   const {
     register,
     handleSubmit,
-    watch,
+   
     formState: { errors },
     reset,
     trigger
@@ -103,33 +103,7 @@ const Contract = () => {
                 )}
               </div>
 
-              <div className="form-group">
-                <label htmlFor="pnumber" className="form-label">
-                  Phone Number
-                </label>
-                <input
-                  type="text"
-                  name="pnumber"
-                  className={`form-control ${errors.pnumber && "invalid"}`}
-                  id="pnumber"
-                  placeholder="Enter Your Phone number ....."
-                  {...register("pnumber", {
-                    required: "Phone Number is Require",
-                    pattern: {
-                      value: /^[01][0-9]{10}$/,
-                      message: "Only Number is permitted",
-                    },
-                  })}
-                  onKeyUp={() => {
-                    trigger("pnumber");
-                  }}
-                ></input>
-                {errors.pnumber && (
-                  <small className="text-danger">
-                    {errors.pnumber.message}
-                  </small>
-                )}
-              </div>
+             
               <div className="form-group">
                 <label htmlFor="message" className="form-label">
                   Message

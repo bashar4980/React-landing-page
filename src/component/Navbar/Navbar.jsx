@@ -8,7 +8,7 @@ const Navbar = () => {
     return (
         <div>
            
-            <nav className="navbar navbar-expand-lg navbar-light bg-light">
+            <nav className="navbar fixed-top navbar-expand-lg navbar-light bg-light">
 
                 <div className="container">
                     <a className="navbar-brand text-primary " href="#">Learn More</a>
