@@ -17,6 +17,7 @@ const Service = () => {
                                     <img src={location.state.courseImg} className="img-fluid w-100" alt="..." />
                                 </div>
                                 <div className="col-lg-6 pt-5">
+                                    <h4>{title}</h4>
                                     <h4>{location.state.title}</h4>
                                     <p style={{ fontSize: "15px" }} className="text-muted">{location.state.author}</p>
                                     <button className='btn btn-primary btn-lg' style={{ borderRadius: "0px" }}> Enroll Now</button>

@@ -1,3 +1,9 @@
 .navbar-nav a{
   color: red;
 }
+.invalid{
+  border: 2px solid red !important;
+}
+.valid{
+  border: 2px solid green !important;
+}
